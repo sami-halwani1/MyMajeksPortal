@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<link rel="stylesheet" href="/assets/css/style.css">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>MyMajeksPortal</title>
+    <script src="/assets/js/script.js" defer></script>
+</head>
+<body>
+    <div class="sidebar">
+        <nav>
+            <div class="logo">
+                <a href="/pages/main.html">
+                    <img src="/assets/_images/MajekSoftwareLogo.png" alt="MyMajeksPortal" class="logo-img">
+                </a>
+            </div>
+            <ul>
+                <li><a href="#home">Home</a></li>
+                <li><a href="#inventory">Inventory</a></li>
+                <li><a href="#exports">Exports</a></li>
+                <li><a href="#accounting">Accounting</a></li>
+                <li><a href="#settings">Settings</a></li>
+            </ul>
+        </nav>
+        <button class="logout-button" onclick="logout()">Logout</button>
+    </div>
+    <div class="main">
+        <div class = "header-content">
+            <h1 id = "greeting ">Welcome to MyMajeksPortal</h1>
+            <p>Hello, <span id="username"></span>!</p>
+        </div>
+        <div class="main-content" id="dynamic-content">
+        </div>
+        
+    </div>
+</body>
+
+</html>

@@ -1,0 +1,61 @@
+{
+    "inventory": {
+        "locations": [
+            {
+                "lid": "1",
+                "items": [
+                    {
+                        "id": "1",
+                        "stockNo": "1234567890",
+                        "name": "item1",
+                        "quantity": 10,
+                        "locationID": "1",
+                        "images": [
+                            {
+                                "url": "https://example.com/image1.jpg",
+                                "description": "Image 1"
+                            },
+                            {
+                                "url": "https://example.com/image2.jpg",
+                                "description": "Image 2"
+                            }
+                        ],
+                        "attributes": [
+                            {
+                                "name": "color",
+                                "value": "red"
+                            },
+                            {
+                                "name": "size",
+                                "value": "large"
+                            }
+                        ]
+                    },
+                    {
+                        "id": "2",
+                        "stockNo": "0987654321",
+                        "name": "item2",
+                        "quantity": 5,
+                        "locationID": "1",
+                        "images": [
+                            {
+                                "url": "https://example.com/image3.jpg",
+                                "description": "Image 3"
+                            }
+                        ],
+                        "attributes": [
+                            {
+                                "name": "color",
+                                "value": "blue"
+                            },
+                            {
+                                "name": "size",
+                                "value": "medium"
+                            }
+                        ]
+                    }
+                ]
+            }
+        ]
+    }
+}
